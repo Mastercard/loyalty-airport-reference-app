@@ -19,6 +19,9 @@ Building the API client library requires:
 1. Java 1.7+
 2. Maven/Gradle
 
+#### Dependencies
+1. [Mastercard client authentication library](https://github.com/Mastercard?&q=oauth). [for more info](https://github.com/Mastercard/oauth1-signer-java/blob/master/README.md)
+
 
 ## Getting Started
 
