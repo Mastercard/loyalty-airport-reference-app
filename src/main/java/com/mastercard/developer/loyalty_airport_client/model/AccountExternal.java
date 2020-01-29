@@ -29,24 +29,14 @@ package com.mastercard.developer.loyalty_airport_client.model;
 
 public class AccountExternal {
 	
-	private String accountStatusCode;
-	
-	private String externalMembershipReferenceId;
+	private Long ica;
 
-	public String getAccountStatusCode() {
-		return accountStatusCode;
+	public Long getIca() {
+		return ica;
 	}
 
-	public void setAccountStatusCode(String accountStatusCode) {
-		this.accountStatusCode = accountStatusCode;
-	}
-
-	public String getExternalMembershipReferenceId() {
-		return externalMembershipReferenceId;
-	}
-
-	public void setExternalMembershipReferenceId(String externalMembershipReferenceId) {
-		this.externalMembershipReferenceId = externalMembershipReferenceId;
+	public void setIca(Long ica) {
+		this.ica = ica;
 	}
 	
 	
